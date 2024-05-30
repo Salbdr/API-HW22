@@ -38,7 +38,7 @@ async function register(e){
     if (res.ok){
         var data = await res.json();
         console.log('done', data)
-        // window.location.href = "index.html"
+        window.location.href = "index.html"
     }else{
         console.log('not ok');
     }
