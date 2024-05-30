@@ -70,7 +70,7 @@ async function login(e){
     })
     if (res.ok){
         var data = await res.json();
-        window.location.href = "homePage.html"
+        window.location.href = "index3.html"
         document.getElementById('welcome').innerHTML = `welcom ${data.email}`
         console.log('done', data.email)
     }else{
